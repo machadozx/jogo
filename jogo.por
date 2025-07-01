@@ -1,3 +1,4 @@
+
 programa
 {
     funcao inicio()
@@ -33,7 +34,7 @@ programa
             retorne
         }
 
-        escreva("\nContinuar para a história? (Sim ou Não) \n")
+        escreva("\nContinuar para a história? (sim ou não) \n")
         leia(continua)
 
         escolha (continua)
@@ -49,7 +50,7 @@ programa
                 retorne
         }
 
-        escreva("\nVocê acorda num arbusto na floresta. Você está perdido e dá de cara com um monstro demoníaco, você pode correr ou enfrentá-lo. Qual a sua escolha? (Correr ou Enfrentar) \n")
+        escreva("\nVocê acorda num arbusto na floresta. Você está perdido e dá de cara com um monstro demoníaco, você pode correr ou enfrentá-lo. Qual a sua escolha? (correr ou enfrentar) \n")
         leia(luta)
         escolha (luta)
         {
@@ -64,7 +65,7 @@ programa
                 retorne
         }
 
-        escreva("\nVocê acaba chegando em um refúgio de magos que conseguiram fugir dos ataques dos demônios, você vê um homem esbanjando aura. Deseja falar com ele? (Conversar ou Ignorar) \n")
+        escreva("\nVocê acaba chegando em um refúgio de magos que conseguiram fugir dos ataques dos demônios, você vê um homem esbanjando aura. Deseja falar com ele? (conversar ou ignorar) \n")
         leia(mago)
         escolha (mago)
         {
@@ -79,7 +80,7 @@ programa
                 retorne
         }
 
-        escreva("\nDepois desse treinamento, você desbloqueou o level 5, junto dele liberando um mapa que te leva até uma masmorra repleta de monstros. Escolha uma dificuldade. (Fácil, Médio e Difícil, não recomendando!)\n")
+        escreva("\nDepois desse treinamento, você desbloqueou o level 5, junto dele liberando um mapa que te leva até uma masmorra repleta de monstros. Escolha uma dificuldade. (fácil, médio e difícil, não recomendando!)\n")
         leia(masmorra)
         escolha (masmorra)
         {
@@ -113,7 +114,7 @@ programa
                 retorne
         }
 
-        escreva("\nQual poção você deseja tomar? (Avançada ou Normal) \n")
+        escreva("\nQual poção você deseja tomar? (avançada ou normal) \n")
         leia(pocao)
         escolha (pocao)
         {
@@ -128,7 +129,7 @@ programa
                 retorne
         }
 
-        escreva("Quando você está saindo da masmorra, um monstro absurdamente forte se aproxima de você, ele é o Boss da masmorra! Enfrenta-lo ou correr? (Enfrentar ou Correr) \n")
+        escreva("Quando você está saindo da masmorra, um monstro absurdamente forte se aproxima de você, ele é o Boss da masmorra! Enfrenta-lo ou correr? (enfrentar ou correr) \n")
         leia(boss)
         escolha (boss)
         {
