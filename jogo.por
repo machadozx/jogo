@@ -30,6 +30,7 @@ programa
         senao
         {
             escreva("Escolha inválida.\n")
+            retorne
         }
 
         escreva("\nContinuar para a história? (Sim ou Não) \n")
